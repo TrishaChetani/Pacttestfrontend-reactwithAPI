@@ -1,20 +1,19 @@
 
 import React, {Component} from "react";
 import '../App.css';
+import '../App.js';
 
 
 class CreateContact extends Component {
     constructor(props) {
         super(props);
+
         this.state = {
-            Insert_amount: 0,
-            Insert_category:"test",
-            hidden: true
+            Insert_amount: " ",
+            Insert_category:" ",
         }
+    };
 
-        this.handleChange = this.handleChange.bind(this);
-
-    }
 
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value })
@@ -26,36 +25,18 @@ class CreateContact extends Component {
 
     render() {
         return (
-
-            <div>
-                <center><h1>Ticket List</h1></center>
-                <br/>
-                <table>
-                    <tr>
-                        <td>
-                <label className="Insert_amount" htmlFor="Insert_amount" placeholder="Insert_amount">Insert Amount
-                    <span className="required">*</span>
+             <div onSubmit={this.create}>
+                <center><h1>Food List</h1></center>
+                <label className="Insert_amount" htmlFor="Insert_amount" >Insert Amount<span className="required">*</span>
                 </label>
-                <br/>
-                <input type="number" step="0.01" name="Insert_amount"  value={this.state.Insert_amount} onChange={this.handleChange} required/>
-                <br/>
-                        </td>
-
-                        <td>
-                <label className="Insert_category" htmlFor="Insert_category" placeholder="Insert_category">Insert Category
-                    <span className="required">*</span>
+                 <input type="number"  name="Insert_amount"  placeholder={"eg:100"} value={this.state.Insert_amount} onChange={this.handleChange.bind(this)} required/>
+                <label className="Insert_category" htmlFor="Insert_category" >Insert Category<span className="required">*</span>
                 </label>
-                <br/>
-                <input type="text" step="0.01" name="Insert_category" value={this.state.Insert_category} onChange={this.handleChange} required/>
-                <br/>
-                        </td>
-                    </tr>
-                </table>
-                <br/>
-                <button onClick={this.Create} type ="submit" className="btn">
-                   Enter Ticket
+                 <input type="text" name="Insert_category" placeholder={"eg: Category"} value={this.state.Insert_category} onChange={this.handleChange.bind(this)} required/>
+                 <br/>
+                <button onClick={this.create} type ="submit" className="btn">
+                   Enter Food!
                 </button>
-                <br/>
                 <br/>
             </div>
 
@@ -64,3 +45,4 @@ class CreateContact extends Component {
 
 }
 export default CreateContact;
+

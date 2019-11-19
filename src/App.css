@@ -26,8 +26,9 @@
     background-color: #ff6602;
     color: #fff;
     border-radius: 4px;
-    border-color: unset!important;
-    cursor: pointer;
+    display:block;
+    margin:auto;
+
 }
 .Insert_category,.Insert_amount{
     border-color: #ff6602;
@@ -41,11 +42,6 @@ input[type="number"]{
     font-family: Arial,Helvetica,sans-serif;
     font-size: 20px;
     -webkit-border-radius: 5px;
-    margin-right: 5px;
-    outline: none;
-    padding-left:1px ;
-    padding-bottom: 1px;
-    padding-right: 100px ;
 
 }
 input[type="text"]{
@@ -53,8 +49,17 @@ input[type="text"]{
     font-family: Arial,Helvetica,sans-serif;
     font-size: 20px;
     -webkit-border-radius: 5px;
-    margin-right: 5px;
-    outline: none;
-    padding-left:100px ;
+}
+label {
 
+    flex-direction: row;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+input{
+    flex: 0 0 200px;
+    margin-left: 10px;
 }
