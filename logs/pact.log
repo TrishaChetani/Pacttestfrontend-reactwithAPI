@@ -1,0 +1,73 @@
+I, [2019-12-26T14:00:39.783572 #10078]  INFO -- : Registered expected interaction POST /bookTickets
+D, [2019-12-26T14:00:39.783855 #10078] DEBUG -- : {
+  "description": "id, amount and category",
+  "providerState": "ticket booking with valid id, amount, category",
+  "request": {
+    "method": "POST",
+    "path": "/bookTickets",
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "json_class": "Pact::SomethingLike",
+      "contents": {
+        "amount": 0,
+        "category": "string",
+        "id": 0
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "json_class": "Pact::SomethingLike",
+      "contents": {
+        "id": 5,
+        "amount": 0,
+        "category": "string"
+      }
+    }
+  }
+}
+I, [2019-12-26T14:00:39.793899 #10078]  INFO -- : Received request POST /bookTickets
+D, [2019-12-26T14:00:39.794052 #10078] DEBUG -- : {
+  "path": "/bookTickets",
+  "query": "",
+  "method": "post",
+  "body": {
+    "amount": 0,
+    "category": "string",
+    "id": 0
+  },
+  "headers": {
+    "Content-Length": "39",
+    "Content-Type": "application/json",
+    "Accept": "*/*",
+    "User-Agent": "axios/0.19.0",
+    "Host": "127.0.0.1:8991",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-12-26T14:00:39.794573 #10078]  INFO -- : Found matching response for POST /bookTickets
+D, [2019-12-26T14:00:39.794678 #10078] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "json_class": "Pact::SomethingLike",
+    "contents": {
+      "id": 5,
+      "amount": 0,
+      "category": "string"
+    }
+  }
+}
+I, [2019-12-26T14:00:39.805220 #10078]  INFO -- : Verifying - interactions matched
+I, [2019-12-26T14:00:39.809658 #10078]  INFO -- : Cleared interactions
+I, [2019-12-26T14:00:39.815151 #10078]  INFO -- : Updating pact for Provider at /Users/chetatri/Desktop/react-api/pacts/consumer-provider.json

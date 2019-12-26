@@ -10,7 +10,7 @@ class App extends Component {
     };
 
     createContact(amount, category) {
-        fetch(requestUrl +'/ticket/bookTickets', {
+        fetch(requestUrl +'/bookTickets', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -24,7 +24,7 @@ class App extends Component {
     }
 
     displayContact() {
-        fetch(requestUrl+ "/ticket/getTickets", {method: "GET"})
+        fetch(requestUrl+ "/getTickets", {method: "GET"})
             .then(res => res.json())
             .then((data) => {
                 console.log(data)
