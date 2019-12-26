@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959f275f-9356-4636-bbe6-1a52d29e3fd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pactSetup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pactTestWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publishPacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verifyPacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +73,7 @@
       <workItem from="1574205041226" duration="8000" />
       <workItem from="1574798962977" duration="819000" />
       <workItem from="1577355833874" duration="2664000" />
+      <workItem from="1577368464983" duration="292000" />
     </task>
     <servers />
   </component>
