@@ -77,7 +77,7 @@ To run the provider pact test to verify the pact file
     
 #### Test Setup:
 
-#####provider.setup:
+##### provider.setup:
  1. Before our tests can actually run, we need to start the Pact service and provide it with  our expected interactions.\
    - Example: authentication_api.test.pact.js\
      ```
@@ -107,7 +107,7 @@ To run the provider pact test to verify the pact file
   1. This is where we define our expectations. 
   2.Any mis-match between expected interactions will cause the test to throw an error when being asserted withRequest and willRespondWith define the expected interaction between API consumer and provider\
   3. withRequest part is defining what the consumer API is expected to send and we use the capability from the pact library known as Matchers to allow some flexibility on the provider implementation of the contractº\
-#####Consumer Test:
+##### Consumer Test:
    ```
                   it('returns a successfully body',() => {
                   return axios.request({
@@ -133,9 +133,9 @@ To run the provider pact test to verify the pact file
 1. This is our actual consumer test where we use the axios.request to make HTTP requests to the mocked API service that the pact library created for us.This is the actual expected usage in real world where fire a API call to the provider\
                 ``` curl -X POST "https://url" -H "accept: */*" -H "Content-Type: application/json" -d "{ clientId: \"admin\", clientSecret: \"admin\"}"``
 2. We assert with provider.verify()) that all expected interactions have been fulfilled by making sure it doesn't throw an error and conclude the test.\
-#####Test Teardown :
+##### Test Teardown :
 - provider.finalize: After running the test, you have a pact file in the pacts/ directory that you can collaborate with your provider.
-####reference: 
+#### reference: 
   -  [pact-workshop-js](https://github.com/DiUS/pact-workshop-js).
   - [pact-foundation/pact-js/tree/master/examples/jest](https://github.com/pact-foundation/pact-js/tree/master/examples/jest).
   -  [pact-workshop-js](DiUS/pact-workshop-js).
