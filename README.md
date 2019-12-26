@@ -130,9 +130,11 @@ To run the provider pact test to verify the pact file
   ```
       
       
-1. This is our actual consumer test where we use the axios.request to make HTTP requests to the mocked API service that the pact library created for us.This is the actual expected usage in real world where fire a API call to the provider\
-                ``` curl -X POST "https://url" -H "accept: */*" -H "Content-Type: application/json" -d "{ clientId: \"admin\", clientSecret: \"admin\"}"``
-2. We assert with provider.verify()) that all expected interactions have been fulfilled by making sure it doesn't throw an error and conclude the test.\
+- This is our actual consumer test where we use the axios.request to make HTTP requests to the mocked API service that the pact library created for us.This is the actual expected usage in real world where fire a API call to the provider\`
+
+                ``` curl -X POST "https://url" -H "accept: */*" -H "Content-Type: application/json" -d "{ clientId: \"admin\", clientSecret: \"admin\"}"```
+
+-  We assert with provider.verify()) that all expected interactions have been fulfilled by making sure it doesn't throw an error and conclude the test.\
 ##### Test Teardown :
 - provider.finalize: After running the test, you have a pact file in the pacts/ directory that you can collaborate with your provider.
 #### reference: 
