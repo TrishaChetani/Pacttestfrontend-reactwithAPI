@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="959f275f-9356-4636-bbe6-1a52d29e3fd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pact.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pact.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pactSetup.js" beforeDir="false" afterPath="$PROJECT_DIR$/pactSetup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pacts/consumer-provider.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publishPacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/publishPacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verifyPacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/verifyPacts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,12 @@
       <workItem from="1574205041226" duration="8000" />
       <workItem from="1574798962977" duration="819000" />
       <workItem from="1577355833874" duration="2664000" />
-      <workItem from="1577368464983" duration="2356000" />
+      <workItem from="1577368464983" duration="2817000" />
+      <workItem from="1577389013513" duration="127000" />
+      <workItem from="1577389156536" duration="279000" />
+      <workItem from="1577446369908" duration="7044000" />
+      <workItem from="1577553533598" duration="156000" />
+      <workItem from="1577624579347" duration="3476000" />
     </task>
     <servers />
   </component>
@@ -110,5 +119,9 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state width="1358" height="244" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1577365411720" />
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1577554675063">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.23.1680.963@0.23.1680.963" timestamp="1577554675063" />
   </component>
 </project>

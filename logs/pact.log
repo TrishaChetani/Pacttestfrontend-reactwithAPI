@@ -1,5 +1,5 @@
-I, [2019-12-26T14:00:39.783572 #10078]  INFO -- : Registered expected interaction POST /bookTickets
-D, [2019-12-26T14:00:39.783855 #10078] DEBUG -- : {
+I, [2019-12-29T14:14:12.661658 #11251]  INFO -- : Registered expected interaction POST /bookTickets
+D, [2019-12-29T14:14:12.661928 #11251] DEBUG -- : {
   "description": "id, amount and category",
   "providerState": "ticket booking with valid id, amount, category",
   "request": {
@@ -33,8 +33,8 @@ D, [2019-12-26T14:00:39.783855 #10078] DEBUG -- : {
     }
   }
 }
-I, [2019-12-26T14:00:39.793899 #10078]  INFO -- : Received request POST /bookTickets
-D, [2019-12-26T14:00:39.794052 #10078] DEBUG -- : {
+I, [2019-12-29T14:14:12.670833 #11251]  INFO -- : Received request POST /bookTickets
+D, [2019-12-29T14:14:12.670947 #11251] DEBUG -- : {
   "path": "/bookTickets",
   "query": "",
   "method": "post",
@@ -53,8 +53,8 @@ D, [2019-12-26T14:00:39.794052 #10078] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2019-12-26T14:00:39.794573 #10078]  INFO -- : Found matching response for POST /bookTickets
-D, [2019-12-26T14:00:39.794678 #10078] DEBUG -- : {
+I, [2019-12-29T14:14:12.671312 #11251]  INFO -- : Found matching response for POST /bookTickets
+D, [2019-12-29T14:14:12.671419 #11251] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
@@ -68,6 +68,11 @@ D, [2019-12-26T14:00:39.794678 #10078] DEBUG -- : {
     }
   }
 }
-I, [2019-12-26T14:00:39.805220 #10078]  INFO -- : Verifying - interactions matched
-I, [2019-12-26T14:00:39.809658 #10078]  INFO -- : Cleared interactions
-I, [2019-12-26T14:00:39.815151 #10078]  INFO -- : Updating pact for Provider at /Users/chetatri/Desktop/react-api/pacts/consumer-provider.json
+I, [2019-12-29T14:14:12.681047 #11251]  INFO -- : Verifying - interactions matched
+I, [2019-12-29T14:14:12.685540 #11251]  INFO -- : Cleared interactions
+I, [2019-12-29T14:14:12.690334 #11251]  INFO -- : Updating pact for iProvider at /Users/chetatri/Desktop/react-api/pacts/iconsumer-iprovider.json
+I, [2019-12-29T14:14:12.691036 #11251]  INFO -- : *****************************************************************************
+I, [2019-12-29T14:14:12.691183 #11251]  INFO -- : Updating existing file ./Users/chetatri/Desktop/react-api/pacts/iconsumer-iprovider.json as pactfile_write_mode is :update
+I, [2019-12-29T14:14:12.691222 #11251]  INFO -- : Only interactions defined in this test run will be updated.
+I, [2019-12-29T14:14:12.691247 #11251]  INFO -- : As interactions are identified by description and provider state, pleased note that if either of these have changed, the old interactions won't be removed from the pact file until the specs are next run with :pactfile_write_mode => :overwrite.
+I, [2019-12-29T14:14:12.691270 #11251]  INFO -- : *****************************************************************************
